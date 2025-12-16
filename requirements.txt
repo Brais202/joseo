@@ -1,0 +1,20 @@
+# Dependencias principales para el ransomware
+cryptography==42.0.5
+pywin32==306
+pypiwin32==223
+
+# Para compilar a .exe (PyInstaller)
+pyinstaller==6.4.0
+
+# Para ofuscación/empaquetado opcional
+pyarmor==8.4.4
+
+# Para implementar esteganografía PNG
+pillow==10.2.0
+stepic==0.3
+
+# Utilidades del sistema
+psutil==5.9.7
+
+# Para pruebas y desarrollo
+colorama==0.4.6
